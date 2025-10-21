@@ -2,7 +2,7 @@
 
 Implementation and replication package for the experiments presented in:
 
-> **Carlos Mario Braga, Manuel A. Serrano, and Eduardo FernÃ¡ndez-Medina (2025)**  
+> **Carlos Mario Braga, Manuel A. Serrano, and Eduardo Fernádez-Medina (2025)**  
 > *Early detection of backdoor attacks in federated learning via ecosystemic symmetry breaking.*  
 > In *Proceedings of the First International Workshop on Security and Privacy in Federated and Distributed Architectures (FEDAS 2025)*, ACM, Nantes, France.  
 
@@ -72,15 +72,13 @@ This addition creates a lightweight, privacy-preserving record of the client'yna
 
 ```
 fl/
-â”‚
-â”œâ”€â”€ training.py          # Modified training loop (with logging)
-â”œâ”€â”€ helper.py            # Auxiliary functions (original from Bagdasaryan et al.)
-â”œâ”€â”€ main.py              # Federated orchestration entry point
-â”œâ”€â”€ models.py            # Model definitions (CNN, etc.)
-â”œâ”€â”€ data/                # Input data: updates_log.csv and related logs
-â”œâ”€â”€ output/              # Output results and analysis plots
-â”œâ”€â”€ analyze_distances.py # Script to compute Energy/Wasserstein distances
-â””â”€â”€ README.md
+calibrate_thresholds_proj.py           # Script to calibrate Energy/Wasserstein distance in baseline T0
+compare_distribution_proj.py           # Script to compute Energy/Wasserstein distances in cases T1, T2, T3
+generate_files.py                      # Script to generate de files from the delta generated in the training   
+plot_graphs.py                         # Graphs generator
+data/                                  # Input data: updates_log.csv and related logs
+output/                                # Output results and analysis plots
+README.md
 ```
 
 ---
