@@ -1,0 +1,541 @@
+{
+  "case": "T2",
+  "thresholds_meta": {
+    "n0": 50,
+    "n_add": 3,
+    "pstar": 0.05660377358490566,
+    "B": 500,
+    "pctl": 99.0,
+    "seed": 42
+  },
+  "n0_used": 50,
+  "n_add_used": 3,
+  "rule": "any",
+  "runs": {
+    "1": {
+      "file": "data\\t2_1.csv",
+      "drift_file": null,
+      "results": {
+        "l2": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 7.8105988359633995,
+          "tau_energy": 1.563855402572433,
+          "w1": 541.9067693127324,
+          "tau_w1": 24.398044769517412,
+          "alert": true
+        },
+        "proj0": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 11.649941083253808,
+          "tau_energy": 1.0184046459679283,
+          "w1": 1201.7923558886548,
+          "tau_w1": 11.938277327296422,
+          "alert": true
+        },
+        "proj1": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 8.022852555179155,
+          "tau_energy": 1.7126716819700059,
+          "w1": 573.3559867513407,
+          "tau_w1": 30.59956045460971,
+          "alert": true
+        },
+        "proj2": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 0.5245398957404355,
+          "tau_energy": 1.3910611314135772,
+          "w1": 5.901129662315807,
+          "tau_w1": 20.309922696854937,
+          "alert": false
+        },
+        "proj3": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 6.178983692953883,
+          "tau_energy": 1.8312106447752994,
+          "w1": 341.39525504634054,
+          "tau_w1": 32.905245760367045,
+          "alert": true
+        },
+        "proj4": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 7.739874284199037,
+          "tau_energy": 1.7105444428630596,
+          "w1": 534.028225493161,
+          "tau_w1": 29.971922504090358,
+          "alert": true
+        },
+        "proj5": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 3.316153702458848,
+          "tau_energy": 2.2768177781073233,
+          "w1": 102.8402098282328,
+          "tau_w1": 50.33772727966938,
+          "alert": true
+        },
+        "proj6": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 8.828446365630414,
+          "tau_energy": 1.2846527695508096,
+          "w1": 692.1535612505786,
+          "tau_w1": 18.33659558107988,
+          "alert": true
+        },
+        "proj7": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 10.882544212936038,
+          "tau_energy": 2.4163389120335594,
+          "w1": 1051.4569881361833,
+          "tau_w1": 56.0750054664036,
+          "alert": true
+        },
+        "proj8": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 3.360739934241684,
+          "tau_energy": 1.5452789847378232,
+          "w1": 104.26882426891683,
+          "tau_w1": 24.835444470038496,
+          "alert": true
+        },
+        "proj9": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 9.297641861124662,
+          "tau_energy": 2.234750597026194,
+          "w1": 767.6846251412156,
+          "tau_w1": 48.04273648400936,
+          "alert": true
+        }
+      }
+    },
+    "2": {
+      "file": "data\\t2_2.csv",
+      "drift_file": null,
+      "results": {
+        "l2": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 5.231812153542465,
+          "tau_energy": 1.563855402572433,
+          "w1": 244.81000670954862,
+          "tau_w1": 24.398044769517412,
+          "alert": true
+        },
+        "proj0": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 5.119581693166327,
+          "tau_energy": 1.0184046459679283,
+          "w1": 234.44509620450572,
+          "tau_w1": 11.938277327296422,
+          "alert": true
+        },
+        "proj1": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 6.895594873597092,
+          "tau_energy": 1.7126716819700059,
+          "w1": 424.80639900927264,
+          "tau_w1": 30.59956045460971,
+          "alert": true
+        },
+        "proj2": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 3.7507487925868075,
+          "tau_energy": 1.3910611314135772,
+          "w1": 127.73907022098322,
+          "tau_w1": 20.309922696854937,
+          "alert": true
+        },
+        "proj3": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 3.986933944094017,
+          "tau_energy": 1.8312106447752994,
+          "w1": 144.55151308455558,
+          "tau_w1": 32.905245760367045,
+          "alert": true
+        },
+        "proj4": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 2.782037758543423,
+          "tau_energy": 1.7105444428630596,
+          "w1": 73.2292668601702,
+          "tau_w1": 29.971922504090358,
+          "alert": true
+        },
+        "proj5": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 3.1333392577116137,
+          "tau_energy": 2.2768177781073233,
+          "w1": 92.42517563756907,
+          "tau_w1": 50.33772727966938,
+          "alert": true
+        },
+        "proj6": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 2.4113936944052523,
+          "tau_energy": 1.2846527695508096,
+          "w1": 55.03485773158523,
+          "tau_w1": 18.33659558107988,
+          "alert": true
+        },
+        "proj7": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 5.319210856544367,
+          "tau_energy": 2.4163389120335594,
+          "w1": 255.25773584671745,
+          "tau_w1": 56.0750054664036,
+          "alert": true
+        },
+        "proj8": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 3.945974614467377,
+          "tau_energy": 1.5452789847378232,
+          "w1": 142.0414185819086,
+          "tau_w1": 24.835444470038496,
+          "alert": true
+        },
+        "proj9": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 4.862637140425301,
+          "tau_energy": 2.234750597026194,
+          "w1": 212.94330454628422,
+          "tau_w1": 48.04273648400936,
+          "alert": true
+        }
+      }
+    },
+    "3": {
+      "file": "data\\t2_3.csv",
+      "drift_file": null,
+      "results": {
+        "l2": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 4.1339590491172,
+          "tau_energy": 1.563855402572433,
+          "w1": 153.98354462965477,
+          "tau_w1": 24.398044769517412,
+          "alert": true
+        },
+        "proj0": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 6.6834695780757825,
+          "tau_energy": 1.0184046459679283,
+          "w1": 397.49649471570854,
+          "tau_w1": 11.938277327296422,
+          "alert": true
+        },
+        "proj1": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 1.757081304910983,
+          "tau_energy": 1.7126716819700059,
+          "w1": 32.05966912899377,
+          "tau_w1": 30.59956045460971,
+          "alert": true
+        },
+        "proj2": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 4.00461210753776,
+          "tau_energy": 1.3910611314135772,
+          "w1": 145.13015125724502,
+          "tau_w1": 20.309922696854937,
+          "alert": true
+        },
+        "proj3": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 0.518367152330349,
+          "tau_energy": 1.8312106447752994,
+          "w1": 6.513562783295261,
+          "tau_w1": 32.905245760367045,
+          "alert": false
+        },
+        "proj4": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 3.0760041166610637,
+          "tau_energy": 1.7105444428630596,
+          "w1": 88.44086077600156,
+          "tau_w1": 29.971922504090358,
+          "alert": true
+        },
+        "proj5": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 2.1637896283758664,
+          "tau_energy": 2.2768177781073233,
+          "w1": 47.05868306312921,
+          "tau_w1": 50.33772727966938,
+          "alert": false
+        },
+        "proj6": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 4.553140398113329,
+          "tau_energy": 1.2846527695508096,
+          "w1": 186.79522449529395,
+          "tau_w1": 18.33659558107988,
+          "alert": true
+        },
+        "proj7": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 1.654949955751803,
+          "tau_energy": 2.4163389120335594,
+          "w1": 29.52062362041113,
+          "tau_w1": 56.0750054664036,
+          "alert": false
+        },
+        "proj8": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 4.1070296046218004,
+          "tau_energy": 1.5452789847378232,
+          "w1": 153.49804446634258,
+          "tau_w1": 24.835444470038496,
+          "alert": true
+        },
+        "proj9": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 4.583092835778642,
+          "tau_energy": 2.234750597026194,
+          "w1": 189.6188877199281,
+          "tau_w1": 48.04273648400936,
+          "alert": true
+        }
+      }
+    },
+    "4": {
+      "file": "data\\t2_4.csv",
+      "drift_file": null,
+      "results": {
+        "l2": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 3.7528808585756765,
+          "tau_energy": 1.563855402572433,
+          "w1": 127.43493761314532,
+          "tau_w1": 24.398044769517412,
+          "alert": true
+        },
+        "proj0": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 4.88215218524348,
+          "tau_energy": 1.0184046459679283,
+          "w1": 213.46851988522505,
+          "tau_w1": 11.938277327296422,
+          "alert": true
+        },
+        "proj1": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 0.6835009005427021,
+          "tau_energy": 1.7126716819700059,
+          "w1": 8.914911588272961,
+          "tau_w1": 30.59956045460971,
+          "alert": false
+        },
+        "proj2": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 5.429815486466026,
+          "tau_energy": 1.3910611314135772,
+          "w1": 263.9029576767615,
+          "tau_w1": 20.309922696854937,
+          "alert": true
+        },
+        "proj3": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 4.803546598540055,
+          "tau_energy": 1.8312106447752994,
+          "w1": 207.96086899091608,
+          "tau_w1": 32.905245760367045,
+          "alert": true
+        },
+        "proj4": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 2.542934842173146,
+          "tau_energy": 1.7105444428630596,
+          "w1": 61.98252130076572,
+          "tau_w1": 29.971922504090358,
+          "alert": true
+        },
+        "proj5": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 1.3236979719865893,
+          "tau_energy": 2.2768177781073233,
+          "w1": 21.17870148883676,
+          "tau_w1": 50.33772727966938,
+          "alert": false
+        },
+        "proj6": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 5.089216362829847,
+          "tau_energy": 1.2846527695508096,
+          "w1": 232.45503986970434,
+          "tau_w1": 18.33659558107988,
+          "alert": true
+        },
+        "proj7": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 0.45517220383864804,
+          "tau_energy": 2.4163389120335594,
+          "w1": 7.1574713025003165,
+          "tau_w1": 56.0750054664036,
+          "alert": false
+        },
+        "proj8": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 1.426826301108163,
+          "tau_energy": 1.5452789847378232,
+          "w1": 22.48329102894044,
+          "tau_w1": 24.835444470038496,
+          "alert": false
+        },
+        "proj9": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 1.287313819542027,
+          "tau_energy": 2.234750597026194,
+          "w1": 18.71541392272373,
+          "tau_w1": 48.04273648400936,
+          "alert": false
+        }
+      }
+    },
+    "5": {
+      "file": "data\\t2_5.csv",
+      "drift_file": null,
+      "results": {
+        "l2": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 3.2157022083253666,
+          "tau_energy": 1.563855402572433,
+          "w1": 94.36846687316891,
+          "tau_w1": 24.398044769517412,
+          "alert": true
+        },
+        "proj0": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 1.1054439917821812,
+          "tau_energy": 1.0184046459679283,
+          "w1": 13.716788607183494,
+          "tau_w1": 11.938277327296422,
+          "alert": true
+        },
+        "proj1": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 2.5775483919503976,
+          "tau_energy": 1.7126716819700059,
+          "w1": 63.47472130253629,
+          "tau_w1": 30.59956045460971,
+          "alert": true
+        },
+        "proj2": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 2.8532732240033973,
+          "tau_energy": 1.3910611314135772,
+          "w1": 75.38435922820611,
+          "tau_w1": 20.309922696854937,
+          "alert": true
+        },
+        "proj3": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 0.4714318367643305,
+          "tau_energy": 1.8312106447752994,
+          "w1": 6.103196786844513,
+          "tau_w1": 32.905245760367045,
+          "alert": false
+        },
+        "proj4": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 1.2304158437284716,
+          "tau_energy": 1.7105444428630596,
+          "w1": 18.234603543911355,
+          "tau_w1": 29.971922504090358,
+          "alert": false
+        },
+        "proj5": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 1.0661761829517291,
+          "tau_energy": 2.2768177781073233,
+          "w1": 15.742273588630392,
+          "tau_w1": 50.33772727966938,
+          "alert": false
+        },
+        "proj6": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 4.793331298259,
+          "tau_energy": 1.2846527695508096,
+          "w1": 206.62550530307698,
+          "tau_w1": 18.33659558107988,
+          "alert": true
+        },
+        "proj7": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 3.025195511526441,
+          "tau_energy": 2.4163389120335594,
+          "w1": 86.16833560817645,
+          "tau_w1": 56.0750054664036,
+          "alert": true
+        },
+        "proj8": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 2.3700553519081184,
+          "tau_energy": 1.5452789847378232,
+          "w1": 54.118364547513536,
+          "tau_w1": 24.835444470038496,
+          "alert": true
+        },
+        "proj9": {
+          "k_observed": 1,
+          "n_add_effective": 3,
+          "energy": 0.9669160856898951,
+          "tau_energy": 2.234750597026194,
+          "w1": 12.335537569297939,
+          "tau_w1": 48.04273648400936,
+          "alert": false
+        }
+      }
+    }
+  }
+}
